@@ -1,24 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from "react";
+import { Counting } from "./componentes/Counting";
+import { Play } from "./componentes/Play";
+import './styles/mixin.scss'
 
 function App() {
+
+  const [init, setInit] = useState(false);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <main className={init ? 'counting':'play'}>
+      {init ?
+        <Counting/>:
+        <Play setInit={setInit}/>
+      }
+    </main>
   );
 }
 
