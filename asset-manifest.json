@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Libera-tus-finanzas-app/static/css/main.f83824ac.css",
+    "main.js": "/Libera-tus-finanzas-app/static/js/main.dd5873ac.js",
+    "index.html": "/Libera-tus-finanzas-app/index.html",
+    "main.f83824ac.css.map": "/Libera-tus-finanzas-app/static/css/main.f83824ac.css.map",
+    "main.dd5873ac.js.map": "/Libera-tus-finanzas-app/static/js/main.dd5873ac.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f83824ac.css",
+    "static/js/main.dd5873ac.js"
+  ]
+}
