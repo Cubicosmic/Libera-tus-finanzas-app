@@ -61,6 +61,14 @@ $boton-color: #066;
         height: $h2;
     }
 }
+@mixin responsivo-w($w1,$w2){
+    @media (orientation:landscape) {
+        width: $w1;
+    }
+    @media (orientation:portrait) {
+        width: $w2;
+    }
+}
 
 //bordes y sombras
 

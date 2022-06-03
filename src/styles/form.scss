@@ -1,0 +1,20 @@
+@import './mixin.scss';
+
+form.form {
+    @include responsivo-w(60%,100%);
+    label, input {
+        width: 100%;
+        margin: 10px 0 10px 0;
+        height: 25px;
+        justify-content: center;
+    }
+    label {
+        font-size: 20px;
+        font-weight: bold;
+        color: #555;
+    }
+    button {
+        @include boton-a(100%);
+        margin-top: 20px;
+    }
+}
